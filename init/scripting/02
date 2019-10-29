@@ -1,0 +1,6 @@
+sudo pgrep -u $1 > processes.tmp
+for line in $(cat processes.tmp); 
+do sudo kill -9 $line;
+sudo userdel $1
+rm processes.tmp
+done 

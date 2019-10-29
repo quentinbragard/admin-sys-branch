@@ -1,0 +1,4 @@
+nat-1 (10.60.1.11)
+
+# Note: NAT = Network Address Translation enables the translation of private IP
+# address to public IP address

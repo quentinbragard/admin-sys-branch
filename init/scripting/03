@@ -1,0 +1,1 @@
+cat /etc/passwd | grep $1 | cut -d ':' -f5 | cut -d ',' -f3 > Voici_mon_06

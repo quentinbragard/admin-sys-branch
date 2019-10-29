@@ -1,0 +1,1 @@
+sudo systemctl --type service -all | grep -v "not-found"

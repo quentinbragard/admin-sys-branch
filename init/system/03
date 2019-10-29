@@ -1,0 +1,5 @@
+/etc/hostname
+
+# extract from man hostname :
+# Note, that this is effective only until the next reboot.   Edit  /etc/hostname 
+# for permanent change.
